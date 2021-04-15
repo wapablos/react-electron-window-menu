@@ -2,13 +2,13 @@
 
 .idea/
 # dependencies
-/node_modules
+node_modules/
 
 # testing
-/coverage
+coverage/
 
 # production
-/build
+build/
 
 # misc
 .DS_Store
@@ -24,3 +24,5 @@ yarn-error.log*
 /tests/__snapshots__
 dist/
 .next/
+docs/
+.vscode/
