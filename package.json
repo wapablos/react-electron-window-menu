@@ -1,6 +1,6 @@
 {
   "name": "react-electron-window-menu",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": ":octocat: React Component that render a menu with 'Electron Menu' in the Windows environment.",
   "jsnext:main": "dist/es6/index.js",
   "module": "dist/es6/index.js",
@@ -71,5 +71,7 @@
   "dependencies": {
     "react-hot-loader": "^4.13.0"
   },
-  "files": ["dist/**/*"]
+  "files": [
+    "dist/**/*"
+  ]
 }
