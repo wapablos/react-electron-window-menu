@@ -4,10 +4,20 @@
 # react-electron-window-menu
 
 ## Install
+```
+$ yarn add react-electron-window-menugit+https://github.com/wapablos/react-electron-window-menu.git#fa4f942
+```
 
+## Troubleshooting
+- Check if you have Git installed and its on path
 ```
-$ npm i react-electron-window-menu
+$ git -v
 ```
+- Cache errors
+```
+$ yarn unsafe-disable-integrity-migration false
+$ yarn cache clean
+````
 
 ### MenuBar
 
@@ -339,3 +349,4 @@ export default ContextMenuExample;
 - v0.4.0 : Add property "accelerator" on MenuItem
 - v0.5.1 : Rename to react-electron-window-menu
 - v0.6.1 : Update dependencies
+- v0.6.3 : Fix bugs and improve menubar
