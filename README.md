@@ -5,7 +5,7 @@
 
 ## Install
 ```
-$ yarn add git+https://github.com/wapablos/react-electron-window-menu.git#fa4f942
+$ yarn add git+https://github.com/wapablos/react-electron-window-menu.git#a26265e
 ```
 
 ## Troubleshooting
